@@ -1,7 +1,8 @@
 ## REGRESSÃO
 
-É uma forma estatística de análise de dados. O termo regressão foi utilizado por Sir Francis Galton pela primeira vez por volta de 1880, para denotar a regressão à média da população observada. Em estatística a *Regressão à Média* trata de como os dados se equilibram, isto é, se uma variável for extrema na primeira vez que for medida, ou em outras palavras, tiver um valor muito alto ou baixo, ela estará mais próxima da média na próxima vez que for medida.     
-Um conjunto de dados estruturados, isto é, organizado em linhas e colunas por exemplo é formado por grupos de informações que identificam alguma característica desse conjunto de dados. Uma tabela de dados que apresente duas colunas sendo uma a idade e a outra o peso de uma criança recém nascida pode ser representada do seguinte modo:
+Regressão é uma forma estatística de análise de dados. O termo regressão foi utilizado pela primeira vez por Sir Francis Galton, por volta de 1880, para denotar a regressão à média da população observada. Em estatística a *Regressão à Média* trata de como os dados se equilibram, isto é, se uma variável for extrema na primeira vez que for medida, ela estará mais próxima da média na próxima vez que for medida.     
+
+Analisamos um conjunto de dados com a finalidade de entender o comportamento dos dados e como estes estão organizados. Um conjunto de dados estruturados, isto é, organizado em linhas e colunas por exemplo é formado por grupos de informações que identificam alguma característica desse conjunto de dados. Uma tabela de dados que apresente duas colunas sendo uma a idade e a outra o peso de uma criança recém nascida pode ser representada do seguinte modo:
 
 
 |idade em meses| peso médio em kg|
@@ -23,28 +24,22 @@ O que queremos dizer com linear? Queremos dizer que é possível expressar ou re
 
 ![dependencia entre variáveis](images/variable_dependencies.png)
 
-Ao observermos a linha verde percebemos que há dois pontos na cor azul que apresenta a relação das variáveis peso médio e idade em meses e que a medida que uma variável cresce a outra também, formando assim uma relação linear entre as variáveis.
-
-
-No exemplo anterior cada coluna
-
-### Regressão Simples e Múltipla
-
-
 
 ### Regressão Linear
 
+Ao observermos a linha verde percebemos que há dois pontos na cor azul que representa a relação entre as variáveis *peso médio* e *idade em meses*. É possível notar que a medida que o valor da variável *y* cresce também o valor da variável *x*. Essa relação representada pela linha verde, entre as duas variáveis é chamada de **linear**, uma vez que pode ser exprimida por meio de uma linha reta. De forma geral quando duas variáveis aumentam ou diminuem simultaneamente temos então uma regressão linear.
 
+### Regressão Linear Simples
 
-#### REGRESSÃO LINEAR SIMPLES
+Quando temos uma relação entre apenas duas variáveis, uma dependente e outra independente dizemos que a regressão é do tipo simples, uma vez uma variável dependente, isto é o *y* (peso médio) esta sendo explicada pela independente, neste caso *x* (idade em meses). Uma regresão linear pode ter uma relação *positiva* ou *negativa*:
 
-É o tipo de regressão em que o número de variáveis independentes é igual a um, e há uma relação linear entre a variável independente e a dependente.
+**Relação Linear Positiva:** quando uma variável aumenta e a outra também aumenta, temos uma relação linear positiva.
 
-**Relação Linear:** Quando duas variáveis aumentam ou diminuem simultaneamente.
+**Relação Linear Negativa:** quando uma variável aumenta e a outra diminui, temos uma relação linear negativa.   
 
-**Relação Linear Positiva:** Quando uma variável aumenta e a outra também aumenta, temos uma relação linear positiva.
+### Fórmula da Regressão Linear Simples
 
-**Relação Linear Negativa:** Quando uma variável aumenta e a outra diminui, temos uma relação linear negativa.
+Um modelo de **regressão linear** é uma equação  matemática que fornece uma relação linear entre duas variáveis, isto é uma linha reta expressa normalmente por *x* e *y* que pode ser representada da seguinte forma:
 
 ------------------------
 
