@@ -12,15 +12,18 @@ Analisamos um conjunto de dados com a finalidade de entender o comportamento dos
 |2             | 5,1             |
 |3             | 5,8             |
 |4             | 6,4             |
-|5             | 6,9             |
+|5             | 6,9             |  
+
 
 
 ### Variáveis dependentes e independentes  
 
 
-Ao analisar a tabela de dados é possível verificar que a medida que a idade da criança aumenta o peso da criança também aumenta, isto indica que há uma relação entre os valores das colunas. É importante no entanto observar que é a idade que varia definindo o peso e não ao contrário. Tomando essa relação como exemplo, é possível então dizer que há uma depêndencia entre os dados das colunas, que aqui podemos chamar de variáveis, ou seja, a variável *peso* depende da variável *idade*. Então se a idade aumenta, teremos da mesma forma um aumento no peso, denotando dessa forma uma dependência entre a variável peso e a variável idade.  
-Diante desse cenário podemos então afirmar que temos uma variável dependente e uma variável independente, uma vez que o peso depende da idade. Quando esse fenômeno acontece, podemos afirmar que temos uma relação linear entre as variáveis, isto porque o aumento de uma resulta no aumento linear da outra.  
-O que queremos dizer com linear? Queremos dizer que é possível expressar ou representar essa relação linha reta que representa o comportamento entre essas duas variáveis. Essa relação pode ser representada do seguinte modo:
+Ao analisar a tabela de dados é possível verificar que a medida que a idade da criança aumenta o peso também aumenta, indicando que há uma relação entre os valores das colunas. É importante no entanto observar que é a idade que varia definindo o peso e não o contrário. Tomando essa relação como exemplo, podemos dizer que há uma depêndencia entre os dados das colunas.  
+
+Cada uma dessas colunas são chamadas de variáveis, ou seja, a variável *peso* e a variável *idade*, onde a variável peso é dependente da variável idade. Dessa forma se a idade aumenta, teremos da mesma forma um aumento no peso, denotando uma dependência entre a variável peso e a variável idade.  
+Uma variável dependente normalmente é representada pela letra *y* em um gráfico e a variável independente é expressa por *x*, e a intercecção dessas duas variáveis pode ser representada por uma linha, como podemos ver no gráfico a seguir.
+
 
 ![dependencia entre variáveis](images/variable_dependencies.png)
 
@@ -31,7 +34,7 @@ Ao observermos a linha verde percebemos que há dois pontos na cor azul que repr
 
 ### Regressão Linear Simples
 
-Quando temos uma relação entre apenas duas variáveis, uma dependente e outra independente dizemos que a regressão é do tipo simples, uma vez uma variável dependente, isto é o *y* (peso médio) esta sendo explicada pela independente, neste caso *x* (idade em meses). Uma regresão linear pode ter uma relação *positiva* ou *negativa*:
+Quando temos uma relação entre apenas duas variáveis, uma dependente e outra independente dizemos que a regressão é do tipo simples, uma vez que uma variável dependente, isto é o *y* (peso médio) esta sendo explicada pela independente, neste caso *x* (idade em meses). Uma regresão linear pode ter uma relação *positiva* ou *negativa*:
 
 **Relação Linear Positiva:** quando uma variável aumenta e a outra também aumenta, temos uma relação linear positiva.
 
@@ -39,7 +42,9 @@ Quando temos uma relação entre apenas duas variáveis, uma dependente e outra 
 
 ### Fórmula da Regressão Linear Simples
 
-Um modelo de **regressão linear** é uma equação  matemática que fornece uma relação linear entre duas variáveis, isto é uma linha reta expressa normalmente por *x* e *y* que pode ser representada da seguinte forma:
+Um modelo de **regressão linear** é uma equação  matemática que fornece uma relação linear entre duas variáveis *x* e *y* e pode ser descrita do seguinte modo:
+
+
 
 ------------------------
 
