@@ -58,9 +58,9 @@ Podemos utilizar o gráfico apresentado anteriormente para compreender a fórmul
 <img src="images/calc_regression.png" alt="equação linera" width="400" height="400" style="float: left">
 </br>
 </br>
-<p><img src="https://latex.codecogs.com/svg.latex?\Large&space;y=\frac{y2+y1}{x2 + x1}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /></p>
+<p><img src="https://latex.codecogs.com/svg.latex?\Large&space;y=\frac{y2+y1}{x2 + x1}"/></p>
 </br></br>
-<p><img src="https://latex.codecogs.com/svg.latex?\Large&space;y=\frac{4.2+3.0}{1.0 + 0.0} = \frac{7.2}{1.0} = 7.2" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /></p>
+<p><img src="https://latex.codecogs.com/svg.latex?\Large&space;y=\frac{4.2+3.0}{1.0 + 0.0} = \frac{7.2}{1.0} = 7.2"/></p>
 
 ------------------------
 
