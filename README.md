@@ -2,7 +2,7 @@
 
 Regressão é uma forma estatística de análise de dados. O termo regressão foi utilizado pela primeira vez por Sir Francis Galton, por volta de 1880, para denotar a regressão à média da população observada. Em estatística a *Regressão à Média* trata de como os dados se equilibram, isto é, se uma variável for extrema na primeira vez que for medida, ela estará mais próxima da média na próxima vez que for medida.     
 
-Analisamos um conjunto de dados com a finalidade de entender o comportamento dos dados e como estes estão organizados. Um conjunto de dados estruturados, isto é, organizado em linhas e colunas por exemplo é formado por grupos de informações que identificam alguma característica desse conjunto de dados. Uma tabela de dados que apresente duas colunas sendo uma a idade e a outra o peso de uma criança recém nascida pode ser representada do seguinte modo:
+Analisamos um conjunto de dados com a finalidade de entender o comportamento dos dados e como estes estão organizados. Um conjunto de dados estruturados, isto é, organizado em linhas e colunas por exemplo é formado por grupos de informações que identificam algumas características desse conjunto de dados. Tomemos como exemplo uma tabela com duas colunas sendo uma a idade e a outra o peso de uma criança recém nascida:
 
 
 |idade em meses| peso médio em kg|
@@ -21,8 +21,8 @@ Analisamos um conjunto de dados com a finalidade de entender o comportamento dos
 
 Ao analisar a tabela de dados é possível verificar que a medida que a idade da criança aumenta o peso também aumenta, indicando que há uma relação entre os valores das colunas. É importante no entanto observar que é a idade que varia definindo o peso e não o contrário. Tomando essa relação como exemplo, podemos dizer que há uma depêndencia entre os dados das colunas.  
 
-Cada uma dessas colunas são chamadas de variáveis, ou seja, a variável *peso* e a variável *idade*, onde a variável peso é dependente da variável idade. Dessa forma se a idade aumenta, teremos da mesma forma um aumento no peso, denotando uma dependência entre a variável peso e a variável idade.  
-Uma variável dependente normalmente é representada pela letra *y* em um gráfico e a variável independente é expressa por *x*, e a intercecção dessas duas variáveis pode ser representada por uma linha, como podemos ver no gráfico a seguir.
+Cada uma dessas colunas são chamadas de variáveis, ou seja, a variável *peso* e a variável *idade*, onde a variável peso é dependente da variável idade. Dessa forma se a idade aumenta, teremos da mesma forma um aumento no peso.  
+Uma variável dependente normalmente é representada pela letra *y* em um gráfico e a variável independente é expressa por *x*, como podemos ver no gráfico a seguir.
 
 
 ![dependencia entre variáveis](images/variable_dependencies.png)
@@ -30,7 +30,7 @@ Uma variável dependente normalmente é representada pela letra *y* em um gráfi
 
 ### Regressão Linear
 
-Ao observermos a linha verde percebemos que há dois pontos na cor azul que representa a relação entre as variáveis *peso médio* e *idade em meses*. É possível notar que a medida que o valor da variável *y* cresce também o valor da variável *x*. Essa relação representada pela linha verde, entre as duas variáveis é chamada de **linear**, uma vez que pode ser exprimida por meio de uma linha reta. De forma geral quando duas variáveis aumentam ou diminuem simultaneamente temos então uma regressão linear.
+Ao observermos a linha verde percebemos que há dois pontos na cor azul que representam a relação entre as variáveis *peso médio* e *idade em meses*. Podemos notar que a medida que o valor da variável *y* cresce também o valor da variável *x*. Essa relação representada pela linha verde, entre as duas variáveis é chamada de **linear**, uma vez que pode ser exprimida por meio de uma linha reta. De forma geral quando duas variáveis aumentam ou diminuem simultaneamente temos então uma regressão linear.
 
 ### Regressão Linear Simples
 
@@ -55,12 +55,12 @@ Onde:
 
 Podemos utilizar o gráfico apresentado anteriormente para compreender a fórmula e substituir os valores para o cálculo da equação.
 </br>
-<img src="images/calc_regression.png" alt="equação linera" width="400" height="400" style="float: left">
+<img src="images/calc_regression.png" alt="equação linear" width="400" height="400" style="float: left">
 </br>
 </br>
-<p><img src="https://latex.codecogs.com/svg.latex?\Large&space;y=\frac{y2+y1}{x2 + x1}"/></p>
+<p><img src="images/equacao_linear_a.png" alt="equação linear" width="210"></p>
 </br></br>
-<p><img src="https://latex.codecogs.com/svg.latex?\Large&space;y=\frac{4.2+3.0}{1.0 + 0.0} = \frac{7.2}{1.0} = 7.2"/></p>
+<p><img src="images/equacao_linear_b.png" alt="equação linear" width="400" ></p>
 
 ------------------------
 
