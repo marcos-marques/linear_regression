@@ -40,11 +40,27 @@ Quando temos uma relação entre apenas duas variáveis, uma dependente e outra 
 
 **Relação Linear Negativa:** quando uma variável aumenta e a outra diminui, temos uma relação linear negativa.   
 
-### Fórmula da Regressão Linear Simples
+### Equação Linear
 
-Um modelo de **regressão linear** é uma equação  matemática que fornece uma relação linear entre duas variáveis *x* e *y* e pode ser descrita do seguinte modo:
+Um modelo de **regressão linear** é uma equação  matemática que fornece uma relação linear entre duas variáveis *x* e *y*. Para entermos como o cálculo de um modelo funciona podemos começar explorando a fórmula da *equação linear* que pode ser escrita do seguinte modo:
 
+*y = ax + b*
 
+Onde:
+
+- **y**: *é a variável dependente*
+- **x**: *é a variável independente*
+- **a**: *é a inclinação*
+- **b**: *é o intercepto* 
+
+Podemos utilizar o gráfico apresentado anteriormente para compreender a fórmula e substituir os valores para o cálculo da equação.
+</br>
+<img src="images/calc_regression.png" alt="equação linera" width="400" height="400" style="float: left">
+</br>
+</br>
+<p><img src="https://latex.codecogs.com/svg.latex?\Large&space;y=\frac{y2+y1}{x2 + x1}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /></p>
+</br></br>
+<p><img src="https://latex.codecogs.com/svg.latex?\Large&space;y=\frac{4.2+3.0}{1.0 + 0.0} = \frac{7.2}{1.0} = 7.2" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /></p>
 
 ------------------------
 
