@@ -48,6 +48,22 @@ Quando aplicamos uma regressão linear em um conjunto de dados, estamos tentando
 </br>
 <img src="images/regressao_linear.png" alt="equação linear">
 </br>
+No gráfico apresentado cada ponto azul é um exemplo de treino, é o dado que estamos apresentando para o nosso modelo a fim de obter uma previsão, esta previsão é definida pela *função de hipótese*. Partindo do pressuposto que o modelo não acerte o valor de previsão na primeira iteração, temos então uma diferença entre o valor atual e o valor predito, essa diferença é o que chamamos de *erro ou loss*. Para o cálculo do erro utilizamos uma função denominada *função de custo*. Por fim temos os *parâmetros* que são os valores que serão alterados e ajustados durante todo o processo de treinamento do modelo.
+
+### ENTENDENDO  
+</br>
+
+**Função de Hipótese:** para entendermos a função de hipótese precisamos estar familiarizados antes com a *equação da linha reta*, que pode ser descrita do seguinte modo:
+
+</br>
+<img src="images/funcao_linha_reta.png" alt="equação da linha reta" width="450" >
+</br>
+
+Cada elemento na equação tem como objetivo definir como a linha deverá ser traçada em um gráfico, para exemplificarmos isso de forma mais clara observe o gráfico a seguir com os elementos da equação.
+
+
+</br>
+<img src="images/grafico_funcao_reta.png" alt="equação da linha reta" width="350" >
 </br>
 
 #### COEFICIENTE DE CORRELAÇÃO DE PEARSON
