@@ -48,23 +48,25 @@ Quando aplicamos uma regressão linear em um conjunto de dados, estamos tentando
 </br>
 <img src="images/regressao_linear.png" alt="equação linear">
 </br>
-No gráfico apresentado cada ponto azul é um exemplo de treino, é o dado que estamos apresentando para o nosso modelo a fim de obter uma previsão, esta previsão é definida pela *função de hipótese*. Partindo do pressuposto que o modelo não acerte o valor de previsão na primeira iteração, temos então uma diferença entre o valor atual e o valor predito, essa diferença é o que chamamos de *erro ou loss*. Para o cálculo do erro utilizamos uma função denominada *função de custo*. Por fim temos os *parâmetros* que são os valores que serão alterados e ajustados durante todo o processo de treinamento do modelo.
+No gráfico apresentado cada ponto azul é um exemplo de treino, é o dado que estamos apresentando para o nosso modelo a fim de obter uma previsão, esta previsão é definida pela *função de hipótese*. Partindo do pressuposto que o modelo não acerte o valor de previsão na primeira iteração, temos então uma diferença entre o valor atual e o valor predito, essa diferença é o que chamamos de *erro ou loss*. Para o cálculo do erro utilizamos uma função denominada *função de custo*. Por fim temos os *parâmetros* que são os valores que serão alterados e ajustados durante todo o processo de treinamento do modelo. A seguir vamos passar por cada um desses itens a fim de entendermos como é feito o ajuste dos parâmetros durante o treinamento, mas antes de prosseguirmos para uma explicação mais detalhada precisamos saber o que é a **esquação da reta**.
 
-### ENTENDENDO  
+### Equação da Reta  
 </br>
 
-**Função de Hipótese:** para entendermos a função de hipótese precisamos estar familiarizados antes com a *equação da linha reta*, que pode ser descrita do seguinte modo:
-
+Estar familiarizados antes com a *equação da linha reta*, é um bom começo para entendermos como funciona a *função de custo*, então vamos conhecer alguns aspectos da equação da reta, que pode ser descrita do seguinte modo:
+    
 </br>
-<img src="images/funcao_linha_reta.png" alt="equação da linha reta" width="450" >
+<img src="images/funcao_linha_reta.png" alt="equação da linha reta" >
 </br>
 
-Cada elemento na equação tem como objetivo definir como a linha deverá ser traçada em um gráfico, para exemplificarmos isso de forma mais clara observe o gráfico a seguir com os elementos da equação.
-
+Através da equação da reta podemos definir como uma reta será traçada em um gráfico. A letra *y* define um valor no eixo vertifical, que no contexto de machine learning pode ser chamada de variável dependente conforme vimos anteriormente, da mesma forma que a letra *x* é o valor do eixo horizontal ou variável independente. A letra *m* diz respeito ao valor de inclinação da reta, e a letra *b* indica o ponto em que a linha cruza ou intercepta a linha vertical no gráfico. A imagem a seguir ilustra a função de cada elemento da equação na representação de uma linha reta no gráfico.
 
 </br>
 <img src="images/grafico_funcao_reta.png" alt="equação da linha reta" width="350" >
 </br>
+
+Ao substituírmos cada elemento da equação da reta, definimos como a linha deve ser apresentada no gráfico. Caso o valor de *b*, seja zero a linha cruzará o eixo *y* no ponto zero.  
+
 
 #### COEFICIENTE DE CORRELAÇÃO DE PEARSON
 
