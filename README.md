@@ -28,7 +28,9 @@ A regressão linear também pode ser expandida para casos em que há mais de uma
 
 #### Conclusão:
 
-A regressão linear é uma técnica poderosa e versátil no mundo do aprendizado de máquina. Ela nos permite fazer previsões precisas e entender as relações entre variáveis em nossos dados. Com uma compreensão sólida da regressão linear, podemos explorar outros algoritmos de aprendizado de máquina e enfrentar desafios mais complexos. Acesse o notebook disponível no colab.
+A regressão linear é uma técnica poderosa e versátil no mundo do aprendizado de máquina. Ela nos permite fazer previsões precisas e entender as relações entre variáveis em nossos dados. Com uma compreensão sólida da regressão linear, podemos explorar outros algoritmos de aprendizado de máquina e enfrentar desafios mais complexos. 
+
+> Você pode praticar e aprender usando o código disponível [neste link](https://github.com/marcos-marques/linear_regression/blob/main/Linear_Regression.ipynb)
 
 
 ----------------------------
@@ -66,4 +68,6 @@ Linear regression can also be expanded to cases where there are more than one in
 
 #### Conclusion:
 
-Linear regression is a powerful and versatile technique in the world of machine learning. It enables us to make accurate predictions and understand the relationships between variables in our data. With a solid understanding of linear regression, we can explore other machine learning algorithms and tackle more complex challenges. Access the available notebook on Colab for further information.
+Linear regression is a powerful and versatile technique in the world of machine learning. It enables us to make accurate predictions and understand the relationships between variables in our data. With a solid understanding of linear regression, we can explore other machine learning algorithms and tackle more complex challenges.
+
+> You can practice and learn using the code available [at this link](https://github.com/marcos-marques/linear_regression/blob/main/Linear_Regression.ipynb)
