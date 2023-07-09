@@ -33,7 +33,7 @@ A regressão linear é uma técnica poderosa e versátil no mundo do aprendizado
 
 ----------------------------
 
-**INGLESH VERSION**
+**ENGLISH VERSION**
 
 ## Linear Regression: Accurate Predictions with Machine Learning
 
